@@ -1,11 +1,10 @@
 ;Proiectant: ing. Vlad Bartolomei
 ;Nume Proiect: Joc de Table
-;Subiect: PLA / ASC
+;Subiect: PLA
 
 ;--------------------------------------------------------------------------
 ;vreau sa incrementez variabila lungime_linie cu 4. cum fac? vezi biblioteca_test
-;CÂTĂ CÂRPEALĂĂĂĂ BĂĂĂ FRATEEEE
-;ATÂT DE APROAPE DE A FI GATAAAAAAA
+
 ;--------------------------------------------------------------------------
 
 .586 ;ca sa pot folosi rdtsc
@@ -78,7 +77,7 @@ AlbeTerminate		DD 0
 NegreTerminate 		DD 0
 zar_ales			DD 0
 ; --------------------------------------------------------------------------
-window_title 	DB "Table, Valea Oltului Edition", 0
+window_title 	DB "Checkers game", 0
 area_width 		EQU 1152
 area_height 	EQU 770
 area 			DD 	0
